@@ -86,6 +86,7 @@
     "moduleNameMapper": {
       "\\.(css|less)$": "<rootDir>/tests/js/helpers/importStyleMock.js"
     },
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
     "modulePaths": [
       "<rootDir>/src/sentry/static/sentry"
     ],
